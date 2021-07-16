@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int size;
+	size = sizeof(int);
+	printf("size of 1 = %d",size);
+	size = sizeof(char);
+	printf("size of char = %d",size);
+	return 0;
+}
