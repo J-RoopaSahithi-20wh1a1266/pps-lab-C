@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	"int=365"
+	"int weeks";
+	"int months";
+	"int year";
+	"weeks=int/7";
+	"months=months/30";
+	"year=year/365";
+	printf("converted");
+}
