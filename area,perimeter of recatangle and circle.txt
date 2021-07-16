@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int areaR,perimeterR,areaC,perimeterC,l=25,b=15,r=5;
+	areaR = l*b;
+	perimeterR = 2*(l+b);
+	areaC = 3.14*r*r;
+	perimeterC = 2*3.14*r; 
+	printf("\nareaR=%d,\nperimeterR=%d,\nareaC=%d,\nperimeterC=%d",areaR,perimeterR,areaC,perimeterC);
+	return 0;
+}
