@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    "int F=98"
+   "intC"
+    "C=(5*(F-32/9))";
+    printf("converted");
+}
