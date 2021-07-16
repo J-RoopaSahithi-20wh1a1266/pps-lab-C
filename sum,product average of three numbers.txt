@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,sum,product,average;
+	a=2,b=3,c=6;
+	sum = a+b+c;
+	printf("\n sum = %d",sum);             
+	product = a*b*c;
+	printf("\n product = %d",product);
+	average = (a+b+c)/3;
+	printf("\n average = %d",average);
+	return 0;
+}
