@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int P,T,R,SI;
+	P = 250;
+	T = 2;
+	R = 10;
+	SI = P*T*R/100;
+	printf("simple interest is : %d",SI);
+	return 0;
+}
