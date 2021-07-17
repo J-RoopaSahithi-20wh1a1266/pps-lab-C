@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int  day,salaryperhour,totalworkedhours,totalsalary,employeesID;
+	employeesID = 1234567;
+	day = 8;
+	salaryperhour = 250;
+	totalworkedhours = 30*day;
+	totalsalary = totalworkedhours*salaryperhour;
+	printf("\n totalworkedhour is: %d,\n totalsalary is :%d,\n employeesID is :%d",totalworkedhours,totalsalary,employeesID);
+	return 0;
+}
