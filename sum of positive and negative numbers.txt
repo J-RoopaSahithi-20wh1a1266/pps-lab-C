@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{int a,b,c,d,e,pvesum,nvesum;
+	pvesum = 0;
+	nvesum=0;
+	printf("ENTER 5 INTEGERS ");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+	if (a>0)
+	pvesum =pvesum+a;
+	else
+	nvesum=nvesum+a;
+	if (b>0)
+	pvesum =pvesum+b;
+	else
+	nvesum=nvesum+b;
+	if (c>0)
+        pvesum = pvesum +c;
+        else
+	nvesum=nvesum+c;
+	if (d>0)
+	pvesum =pvesum+d;
+	else
+	nvesum=nvesum+d;
+	if (e>0)
+	pvesum=pvesum+e;
+	else
+	nvesum=nvesum+e ;
+	printf("\n positive numbers sum = %d negative numbers sum=%d",pvesum,nvesum);
+    }
+
+
+
