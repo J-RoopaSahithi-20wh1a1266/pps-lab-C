@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int a,b,distancebetweenpoints;
+    scanf("%d,%d,",&a,&b);
+	distancebetweenpoints=((a)^2+(b)^2-(2*a*b))^1/2;
+	printf("distancebetweenpoints is:%f",distancebetweenpoints);
+	return 0;
+}
