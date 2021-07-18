@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	float centimeter,meter,km;
+	printf("Enter the length in centimeter ");
+	scanf("%f",&centimeter);
+	meter = centimeter/100;
+	km =meter/1000;
+	printf("\n length in meters = %f",meter);
+	printf("\n length in kilometers = %f",km);
+	return 0;
+}
+
