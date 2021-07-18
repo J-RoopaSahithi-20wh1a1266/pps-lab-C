@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the input ");
+	scanf("%c",&num);
+	printf("\n%d",num);
+	(num>48&&num<57)? printf("\n num is a number"):printf("\n num is not a number");
+}
