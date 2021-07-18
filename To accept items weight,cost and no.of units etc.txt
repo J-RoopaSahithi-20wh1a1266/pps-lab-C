@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int weight,cost,noofunits,totalweight,totalcost;
+	weight=25;
+	cost=400;
+	noofunits=25;
+	totalweight=weight*noofunits;
+	totalcost=cost*noofunits;
+	printf("\ntotalweight is %d,\ntotalcost is %d",totalweight,totalcost);
+	return 0;
+}
