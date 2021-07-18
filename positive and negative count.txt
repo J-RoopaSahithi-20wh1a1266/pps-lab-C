@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,positivecount,negativecount;
+	positivecount = 0;
+	negativecount=0;
+	printf("ENTER 5 INTEGERS ");
+	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+	if (a>0)
+	positivecount =positivecount+1;
+	else
+	negativecount=negativecount+1;
+	if (b>0)
+	positivecount =positivecount+1;
+	else
+	negativecount=negativecount+1;
+	if (c>0)
+	positivecount =positivecount+1;
+	else
+	negativecount=negativecount+1;
+	if (d>0)
+	positivecount =positivecount+1;
+	else
+	negativecount=negativecount+1;
+	if (e>0)
+	positivecount=positivecount+1;
+	else
+	negativecount=negativecount+1 ;
+	printf("\n positive numbers count = %d negative number of count=%d",positivecount,negative
