@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,max_num;
+	printf("enter num");
+	scanf("%d",&a);
+	printf("enter other num");
+	scanf("%d",&b);
+    max_num=(a>b)?printf("max=%d",a):printf("max=%d",b);
+}
+
+
+
+	
