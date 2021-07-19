@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+	int pps,m,drawing;
+    float percent,total;
+	printf("\n enter marks scored in pps: ");
+	scanf("%d",&pps);
+	printf("\n enter marks scored in maths: ");
+	scanf("%d",&m);
+	printf("\n enter marks scored in drawing: ");
+	scanf("%d",&drawing);
+	total =pps+m+drawing;
+	percent=(total/300)*100;
+	if (percent>=90)
+	printf("\n percentage=%f GRADE A",percent);
+	else if (percent>=80&&percent<90)
+	printf("\n percentage=%f GRADE B",percent);
+	else if (percent>=70&&percent<80)
+	printf("\n percentage=%f GRADE C",percent);
+	else if(percent>=60&&percent<70)
+	printf("\n percentage=%f GRADE D",percent);
+	else if(percent>=40&&percent<60)
+	printf("\n percentage=%f GRADE E",percent);
+	else
+	printf("\n  percentage=%f GRADE F",percent);
+	return 0;
+}
