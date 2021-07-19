@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	char gender,Female,Male;
+	printf("enter Female or Male as per ur gender ");
+	scanf("%c",&gender);
+	switch(gender)
+	{
+		case 1 :printf("\n Your gender is gender-FEMALE");
+		break;
+		case 2 :printf("\n Your gender is gender-MALE");
+		break;
+	}
+	return 0;
+}
