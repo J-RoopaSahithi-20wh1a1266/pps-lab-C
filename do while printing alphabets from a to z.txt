@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+	char i = 'a';
+	printf("The Alphabets from a to z are: \n");
+ 
+    do {
+    
+    	printf("%c ", i);
+    	i++;
+        
+	}while(i <= 'z');
+
+
+	return 0;
+	}
